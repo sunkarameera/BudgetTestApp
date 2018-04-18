@@ -6,8 +6,8 @@ This section details the set up process to run automation. It also describes the
 2) Run `npm install` to download all dependencies
 3) Run `npm run build` to build the app
 4) Run `npm run serve` to serve the app on localhost:3000
-5) Run `java -jar -Dwebdriver.gecko.driver=./geckodriver selenium-server-standalone-3.11.0.jar` to run the selenium server
-6) Run `./node_modules/.bin/wdio wdio.conf.js` to run the test automation
+5) In a new terminal window, run `java -jar -Dwebdriver.gecko.driver=./geckodriver selenium-server-standalone-3.11.0.jar` to run the selenium server
+6) In a new terminal window, run `./node_modules/.bin/wdio wdio.conf.js` to run the test automation.
     _This command should run 3 tests and in the end you should see a test result similar to the following._
 ![Test Result](https://github.com/sunkarameera/BudgetTestApp/blob/master/screenshot.png)
 
