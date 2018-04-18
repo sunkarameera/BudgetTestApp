@@ -8,8 +8,8 @@ This section details the set up process to run automation. It also describes the
 4) Run `npm run serve` to serve the app on localhost:3000
 5) Run `java -jar -Dwebdriver.gecko.driver=./geckodriver selenium-server-standalon.0.jar` to run the selenium server
 6) Run `./node_modules/.bin/wdio wdio.conf.js` to run the test automation
-    _This command should run 3 tests and in the end you should see a test result similar to the following: _
-    *****INSERT SCREENSHOT********
+    _This command should run 3 tests and in the end you should see a test result similar to the following._
+![Test Result](https://github.com/sunkarameera/BudgetTestApp/blob/master/screenshot.png)
 
 ## What is wdio.conf.js?
 We are running automation using a test runner. Wdio config (_wdio.conf.js_) is located in the root folder. This config defines all the properties for running a test. The following properties are defined in the runner.
@@ -22,7 +22,7 @@ We are running automation using a test runner. Wdio config (_wdio.conf.js_) is l
   _In addition to the above, many other properties could be defined in the config, but these are the prominent ones for our automation._
 
 ## Test plan
-The test plan is located at - *****INSERT TEST PLAN LOCATION********
+The test plan is located at ![Test Plan](https://github.com/sunkarameera/BudgetTestApp/blob/master/e2e/BudgetingAppTestPlan.docx)
 
 ## Test cases
 Here we discuss 3 test cases written in the e2e folder.
